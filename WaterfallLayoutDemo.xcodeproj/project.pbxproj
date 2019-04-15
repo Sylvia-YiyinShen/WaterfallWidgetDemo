@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22687B4E2264A36800C7F302 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22687B4D2264A36800C7F302 /* AppDelegate.swift */; };
+		22687B502264A36800C7F302 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22687B4F2264A36800C7F302 /* ViewController.swift */; };
+		22687B532264A36800C7F302 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22687B512264A36800C7F302 /* Main.storyboard */; };
+		22687B552264A36A00C7F302 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22687B542264A36A00C7F302 /* Assets.xcassets */; };
+		22687B582264A36A00C7F302 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22687B562264A36A00C7F302 /* LaunchScreen.storyboard */; };
+		22687B612264A3A600C7F302 /* WaterfallLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22687B602264A3A600C7F302 /* WaterfallLayout.swift */; };
+		22687B692264A72700C7F302 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22687B672264A72700C7F302 /* MyCollectionViewCell.swift */; };
+		22687B6A2264A72700C7F302 /* MyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22687B682264A72700C7F302 /* MyCollectionViewCell.xib */; };
+		22687B6C2264ABD500C7F302 /* WaterfallWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22687B6B2264ABD500C7F302 /* WaterfallWidget.swift */; };
+		22687B6F2264B1B800C7F302 /* WaterfallWidgetCellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22687B6E2264B1B800C7F302 /* WaterfallWidgetCellProtocol.swift */; };
+		22687B712264B1E400C7F302 /* WaterfallWidgetCellModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22687B702264B1E400C7F302 /* WaterfallWidgetCellModelProtocol.swift */; };
+		22687B732264B29300C7F302 /* MyCollectionViewCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22687B722264B29300C7F302 /* MyCollectionViewCellModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22687B4A2264A36800C7F302 /* WaterfallLayoutDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterfallLayoutDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22687B4D2264A36800C7F302 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22687B4F2264A36800C7F302 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		22687B522264A36800C7F302 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22687B542264A36A00C7F302 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22687B572264A36A00C7F302 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22687B592264A36A00C7F302 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22687B602264A3A600C7F302 /* WaterfallLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallLayout.swift; sourceTree = "<group>"; };
+		22687B672264A72700C7F302 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		22687B682264A72700C7F302 /* MyCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCollectionViewCell.xib; sourceTree = "<group>"; };
+		22687B6B2264ABD500C7F302 /* WaterfallWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallWidget.swift; sourceTree = "<group>"; };
+		22687B6E2264B1B800C7F302 /* WaterfallWidgetCellProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallWidgetCellProtocol.swift; sourceTree = "<group>"; };
+		22687B702264B1E400C7F302 /* WaterfallWidgetCellModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallWidgetCellModelProtocol.swift; sourceTree = "<group>"; };
+		22687B722264B29300C7F302 /* MyCollectionViewCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCellModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22687B472264A36800C7F302 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22687B412264A36800C7F302 = {
+			isa = PBXGroup;
+			children = (
+				22687B4C2264A36800C7F302 /* WaterfallLayoutDemo */,
+				22687B4B2264A36800C7F302 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22687B4B2264A36800C7F302 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22687B4A2264A36800C7F302 /* WaterfallLayoutDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22687B4C2264A36800C7F302 /* WaterfallLayoutDemo */ = {
+			isa = PBXGroup;
+			children = (
+				22687B642264A6EB00C7F302 /* Custom */,
+				22687B5F2264A37D00C7F302 /* WaterfallWidget */,
+				22687B4D2264A36800C7F302 /* AppDelegate.swift */,
+				22687B4F2264A36800C7F302 /* ViewController.swift */,
+				22687B512264A36800C7F302 /* Main.storyboard */,
+				22687B542264A36A00C7F302 /* Assets.xcassets */,
+				22687B562264A36A00C7F302 /* LaunchScreen.storyboard */,
+				22687B592264A36A00C7F302 /* Info.plist */,
+			);
+			path = WaterfallLayoutDemo;
+			sourceTree = "<group>";
+		};
+		22687B5F2264A37D00C7F302 /* WaterfallWidget */ = {
+			isa = PBXGroup;
+			children = (
+				22687B6B2264ABD500C7F302 /* WaterfallWidget.swift */,
+				22687B602264A3A600C7F302 /* WaterfallLayout.swift */,
+				22687B6E2264B1B800C7F302 /* WaterfallWidgetCellProtocol.swift */,
+				22687B702264B1E400C7F302 /* WaterfallWidgetCellModelProtocol.swift */,
+			);
+			path = WaterfallWidget;
+			sourceTree = "<group>";
+		};
+		22687B642264A6EB00C7F302 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				22687B672264A72700C7F302 /* MyCollectionViewCell.swift */,
+				22687B682264A72700C7F302 /* MyCollectionViewCell.xib */,
+				22687B722264B29300C7F302 /* MyCollectionViewCellModel.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22687B492264A36800C7F302 /* WaterfallLayoutDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22687B5C2264A36A00C7F302 /* Build configuration list for PBXNativeTarget "WaterfallLayoutDemo" */;
+			buildPhases = (
+				22687B462264A36800C7F302 /* Sources */,
+				22687B472264A36800C7F302 /* Frameworks */,
+				22687B482264A36800C7F302 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaterfallLayoutDemo;
+			productName = WaterfallLayoutDemo;
+			productReference = 22687B4A2264A36800C7F302 /* WaterfallLayoutDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22687B422264A36800C7F302 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Sylvia Shen";
+				TargetAttributes = {
+					22687B492264A36800C7F302 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 22687B452264A36800C7F302 /* Build configuration list for PBXProject "WaterfallLayoutDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22687B412264A36800C7F302;
+			productRefGroup = 22687B4B2264A36800C7F302 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22687B492264A36800C7F302 /* WaterfallLayoutDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22687B482264A36800C7F302 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22687B582264A36A00C7F302 /* LaunchScreen.storyboard in Resources */,
+				22687B552264A36A00C7F302 /* Assets.xcassets in Resources */,
+				22687B6A2264A72700C7F302 /* MyCollectionViewCell.xib in Resources */,
+				22687B532264A36800C7F302 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22687B462264A36800C7F302 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22687B6F2264B1B800C7F302 /* WaterfallWidgetCellProtocol.swift in Sources */,
+				22687B502264A36800C7F302 /* ViewController.swift in Sources */,
+				22687B712264B1E400C7F302 /* WaterfallWidgetCellModelProtocol.swift in Sources */,
+				22687B732264B29300C7F302 /* MyCollectionViewCellModel.swift in Sources */,
+				22687B692264A72700C7F302 /* MyCollectionViewCell.swift in Sources */,
+				22687B6C2264ABD500C7F302 /* WaterfallWidget.swift in Sources */,
+				22687B612264A3A600C7F302 /* WaterfallLayout.swift in Sources */,
+				22687B4E2264A36800C7F302 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22687B512264A36800C7F302 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22687B522264A36800C7F302 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22687B562264A36A00C7F302 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22687B572264A36A00C7F302 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22687B5A2264A36A00C7F302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22687B5B2264A36A00C7F302 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22687B5D2264A36A00C7F302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WaterfallLayoutDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sylviashen.WaterfallLayoutDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22687B5E2264A36A00C7F302 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WaterfallLayoutDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sylviashen.WaterfallLayoutDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22687B452264A36800C7F302 /* Build configuration list for PBXProject "WaterfallLayoutDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22687B5A2264A36A00C7F302 /* Debug */,
+				22687B5B2264A36A00C7F302 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22687B5C2264A36A00C7F302 /* Build configuration list for PBXNativeTarget "WaterfallLayoutDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22687B5D2264A36A00C7F302 /* Debug */,
+				22687B5E2264A36A00C7F302 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22687B422264A36800C7F302 /* Project object */;
+}
